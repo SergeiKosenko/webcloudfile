@@ -4,10 +4,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebcloudfileApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(WebcloudfileApplication.class, args);
-	}
-
+public class WebCloudFileApp {
+	public static void main(String[] args) { SpringApplication.run(WebCloudFileApp.class, args); }
 }
