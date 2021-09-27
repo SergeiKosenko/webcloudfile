@@ -18,6 +18,8 @@
 		<module>server</module>
 		<module>client</module>
         <module>inet</module>
+        <module>cloud</module>
+        <module>network</module>
     </modules>
 	<properties>
 		<java.version>16</java.version>

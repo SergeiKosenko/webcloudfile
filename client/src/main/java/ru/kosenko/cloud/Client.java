@@ -9,10 +9,11 @@ import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 
 public class Client {
+
+
     public static void main(String[] args) throws InterruptedException {
         new Client().clientStart();
     }
-
     public void clientStart() throws InterruptedException {
         NioEventLoopGroup group = new NioEventLoopGroup(); // Thread пул.
         try {
@@ -38,4 +39,5 @@ public class Client {
             group.shutdownGracefully();
         }
     }
+
 }

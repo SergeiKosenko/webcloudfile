@@ -12,10 +12,10 @@ import io.netty.handler.codec.string.StringEncoder;
 
 public class Server {
     public static void main(String[] args) throws InterruptedException {
-        new Server().start();
+        new Server().startServer();
     }
 
-    public void start() throws InterruptedException {
+    public void startServer() throws InterruptedException {
 
         // Thread пул. Устанавливает новые соединения с клиентами.
         NioEventLoopGroup bossGroup = new NioEventLoopGroup();

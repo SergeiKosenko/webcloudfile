@@ -26,15 +26,10 @@ public class MainController {
         return "home";
     }
 
-    @GetMapping("/contacts")
-    public String contacts() {
-        return "contacts";
-    }
-
-    @GetMapping("/index")
-    public String home() {
-        return "index";
-    }
+//    @GetMapping("/index")
+//    public String home() {
+//        return "index";
+//    }
 
     @GetMapping("/authenticated")
     public String pageForAuthenticatedUsers(Principal principal) {
