@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "port",
+      "type": "java.lang.String",
+      "description": "Description for port."
+    },
+    {
+      "name": "server.spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "description": "Description for server.spring.datasource.driver-class-name."
+    },
+    {
+      "name": "server.spring.jpa.show-sql.properties.hibernate.dialect.temp.use_jdbc_metadata_defaults",
+      "type": "java.lang.String",
+      "description": "Description for server.spring.jpa.show-sql.properties.hibernate.dialect.temp.use_jdbc_metadata_defaults."
+    }
+  ] }
